@@ -1,0 +1,70 @@
+.ps-shell {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ps-card {
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(18px);
+  padding: 36px 38px;
+  border-radius: 24px;
+  color: #f9fafb;
+  width: 90%;
+  max-width: 480px;
+  text-align: center;
+}
+
+.ps-title {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.ps-sub {
+  font-size: 14px;
+  opacity: 0.85;
+  margin-bottom: 22px;
+}
+
+.ps-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+
+.ps-label {
+  font-size: 14px;
+  text-align: left;
+}
+
+.ps-input {
+  width: 100%;
+  margin-top: 6px;
+  padding: 9px 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.ps-btn {
+  padding: 10px 22px;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  background-color: #ffce27;
+  color: #111827;
+  margin-top: 4px;
+}
+
+.ps-theme-btn {
+  margin-top: 6px;
+  background: transparent;
+  border: none;
+  color: #e5e7eb;
+  font-size: 13px;
+  cursor: pointer;
+  opacity: 0.9;
+}

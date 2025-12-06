@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.app-dark {
+  background: linear-gradient(135deg, #5b3bff, #8f6fff, #65d6ff, #d38bff);
+  background-size: 400% 400%;
+  animation: gradientMove 10s infinite alternate;
+  color: #ffffff;
+}
+
+.app-light {
+  background: linear-gradient(135deg, #ffffff, #ffe3f3, #e2e8ff);
+  color: #1e293b;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}

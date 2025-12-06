@@ -1,0 +1,38 @@
+.emoji-item {
+  list-style: none;
+}
+
+.emoji-btn {
+  width: 150px;
+  height: 150px;
+  border-radius: 18px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.32);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease,
+    background 0.2s ease;
+}
+
+.emoji-btn:hover {
+  transform: scale(1.08) rotate(2deg);
+  background: rgba(255, 255, 255, 0.42);
+  box-shadow: 0 8px 16px rgba(15, 23, 42, 0.35);
+}
+
+.emoji-img {
+  width: 70px;
+  animation: emojiPop 0.3s;
+}
+
+@keyframes emojiPop {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
